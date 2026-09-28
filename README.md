@@ -24,6 +24,8 @@ Optional kann ein anderer lokaler Port als erstes Argument gewählt werden, zum 
 ## Enthaltene Ansichten
 
 - Management-Startseite mit engem GO, Reifegrad, Risiken und nächsten Schritten
+- Fähigkeiten & Lernroadmap mit verbundenem persönlichen Capability Track P0–P7 und Enterprise/Application Track
+- Acht evidenzgebundene Phasenkarten, nächster Lernschritt und kontinuierlich erweiterbares Skills-Register
 - Roadmap/Fortschritt
 - Zielmarkt und Evidenz
 - Geschäftsproblem und Werthebel
@@ -38,7 +40,7 @@ Optional kann ein anderer lokaler Port als erstes Argument gewählt werden, zum 
 - Entscheidungslog und offene Owner
 - Projekt-Handoff mit `PROJECT_STATE.md` und `project-state.json`
 
-Volltextsuche und Facettenfilter stehen für Phase, Status, Inhaltstyp und Gate bereit. Fakten, Annahmen, Optionen, Risiken/Gates und Empfehlungen werden getrennt dargestellt.
+Volltextsuche und Facettenfilter stehen für Phase, Status, Inhaltstyp und Gate bereit und schließen die acht Capability-Phasen ein. Fakten, Annahmen, Optionen, Risiken/Gates und Empfehlungen werden getrennt dargestellt. Vorhandene Strategie-/Methodenartefakte oder Lernmaterialien gelten ausdrücklich nicht automatisch als persönlicher Kompetenznachweis.
 
 ## Scope-Grenze
 
@@ -66,7 +68,7 @@ Die Prüfsuite deckt Daten-Build, Gate-Facetten, Navigation, Suche/Filter, No-Go
 
 ## Daten- und Dateistruktur
 
-- `content/`: unveränderte Parent-Eingaben; `PARENT_PROJECT_STATE.md` bewahrt den Parent-Handoff separat
+- `content/`: unveränderte Parent-Eingaben plus die separat auditierbare `capability-roadmap.json`; `PARENT_PROJECT_STATE.md` bewahrt den Parent-Handoff separat
 - `downloads/`: explizit lokal angebotene, vorhandene Quellen-/Nachweisdateien
 - `web/data/site-data.json`: deterministisch erzeugte Browser-Daten mit abgeleiteten Gate-Facetten und verifizierten Downloadmetadaten
 - `index.html`, `styles.css`, `app.js`: lokale Oberfläche ohne externe Ressourcen

@@ -29,79 +29,85 @@
       "target": "#executive-overview"
     },
     {
-      "order": 2,
+      "id": "capability-roadmap",
+      "title": "Fähigkeiten & Lernroadmap",
+      "target": "#capability-roadmap",
+      "order": 2
+    },
+    {
+      "order": 3,
       "id": "roadmap-phasenstatus",
       "title": "Roadmap und Phasenstatus",
       "target": "#roadmap-phasenstatus"
     },
     {
-      "order": 3,
+      "order": 4,
       "id": "zielmarkt-evidenz",
       "title": "Zielmarkt und Evidenz",
       "target": "#zielmarkt-evidenz"
     },
     {
-      "order": 4,
+      "order": 5,
       "id": "geschaeftsproblem-werthebel",
       "title": "Geschäftsproblem und Werthebel",
       "target": "#geschaeftsproblem-werthebel"
     },
     {
-      "order": 5,
+      "order": 6,
       "id": "muster-use-case-pilot",
       "title": "Muster-Use-Case und Pilot-Canvas",
       "target": "#muster-use-case-pilot"
     },
     {
-      "order": 6,
+      "order": 7,
       "id": "angebotsbaukasten",
       "title": "Angebotsbaukasten M1–M8 und Paketlogik",
       "target": "#angebotsbaukasten"
     },
     {
-      "order": 7,
+      "order": 8,
       "id": "methodenbibliothek",
       "title": "Methodenbibliothek M1–M8 und Vorlagen T1–T12",
       "target": "#methodenbibliothek"
     },
     {
-      "order": 8,
+      "order": 9,
       "id": "wissensportal-spezifikation",
       "title": "Fachlich-funktionale Wissensportal-Spezifikation",
       "target": "#wissensportal-spezifikation"
     },
     {
-      "order": 9,
+      "order": 10,
       "id": "mvp-funktionsumfang-schutz",
       "title": "MVP-Funktionsumfang und Schutzkonzept",
       "target": "#mvp-funktionsumfang-schutz"
     },
     {
-      "order": 10,
+      "order": 11,
       "id": "abnahmehistorie",
       "title": "Prüf- und Abnahmehistorie HOLD → ADAPT → GO",
       "target": "#abnahmehistorie"
     },
     {
-      "order": 11,
+      "order": 12,
       "id": "go-bedingungen-no-go",
       "title": "Aktuelle GO-Bedingungen, No-Go-Scope, Fach-Gates und Stop-Kriterien",
       "target": "#go-bedingungen-no-go"
     },
     {
-      "order": 12,
+      "order": 13,
       "id": "artefaktregister",
       "title": "Artefaktregister: autoritativ, superseded und verworfen",
       "target": "#artefaktregister"
     },
     {
-      "order": 13,
+      "order": 14,
       "id": "entscheidungslog-offene-owner",
       "title": "Entscheidungslog und offene Entscheidungen/Owner",
       "target": "#entscheidungslog-offene-owner"
     },
     {
-      "order": 14,
+      "order": 15,
       "id": "project-state",
       "title": "Session-Handoff PROJECT_STATE",
       "target": "PROJECT_STATE.md"
@@ -1305,6 +1311,396 @@
     "NACHWEIS-A5-ROLLEN.md:26 verweist veraltet auf die frühere SHA-Datei; vor Neupaketierung, Übergabe oder Scope-Erweiterung korrigieren und erneut prüfen."
   ],
   "next_exact_step": "Evaluationskreis, Zweck, Zeitraum und Portal/Product Owner namentlich festhalten; dann ausschließlich das autoritative Bundle unverändert lokal auf 127.0.0.1/In-Memory mit D0/D1-Synthesedaten zeitlich begrenzt begleitet evaluieren, Ergebnisse/Vorfälle und reale B9/B10-Browser-, Tastatur-, Screenreader- und Responsive-Befunde dokumentieren und danach mit T12 neu entscheiden. Vor Neupaketierung, Übergabe oder Scope-Erweiterung NACHWEIS-A5-ROLLEN.md:26 korrigieren, erneut unabhängig prüfen und alle einschlägigen Fach-Gate-Entscheidungen einholen.",
+  "capability_roadmap": {
+    "schema_version": "1.0.0",
+    "title": "Fähigkeiten & Lernroadmap",
+    "summary": "Persönliche Anwendungskompetenz wird in acht aufeinander aufbauenden Phasen entwickelt. Vorhandene Strategie- und Methodenartefakte sind eine Arbeitsgrundlage, aber kein automatischer persönlicher Kompetenznachweis.",
+    "evidence_baseline": [
+      "Strategie-, Zielmarkt-, Geschäftsproblem-, Use-Case-, Pilot-, Angebots-, Methoden- und Portal-Artefakte existieren.",
+      "Das Phase-0/1-Lernpaket liegt vor, einschließlich Übungen, Selbsttests und Gate-1-Prüfungspaket.",
+      "Ein persönlicher Kompetenznachweis ist nicht automatisch erbracht; er entsteht erst durch beobachtbare eigene Anwendung.",
+      "Technische Evidenz trägt nur eine eng begrenzte lokale Evaluation mit Synthesedaten, keinen Kundennutzen und keine Produktionsreife.",
+      "Marktvalidierung, reale Baseline, Wertnachweis und Skalierungsfähigkeit bleiben offen."
+    ],
+    "next_recommended_step": "Phase 0/1 praktisch durcharbeiten: Managementbriefing/Charter und Geschäftsproblem-Canvas selbst erstellen und verteidigen; anschließend die Gate-1-Prüfung dokumentieren.",
+    "tracks": {
+      "capability": [
+        {
+          "id": "P0",
+          "title": "Orientieren & KI-Kompetenz"
+        },
+        {
+          "id": "P1",
+          "title": "Geschäft & Prozess verstehen"
+        },
+        {
+          "id": "P2",
+          "title": "Segment wählen & entdecken"
+        },
+        {
+          "id": "P3",
+          "title": "Angebot & Portfolio formen"
+        },
+        {
+          "id": "P4",
+          "title": "Reversiblen Pilot entwerfen"
+        },
+        {
+          "id": "P5",
+          "title": "Governance & Change befähigen"
+        },
+        {
+          "id": "P6",
+          "title": "Wert nachweisen"
+        },
+        {
+          "id": "P7",
+          "title": "Skalieren & betreiben"
+        }
+      ],
+      "application": [
+        {
+          "id": "A0",
+          "title": "Zielbild"
+        },
+        {
+          "id": "A1",
+          "title": "Ist-Aufnahme"
+        },
+        {
+          "id": "A2",
+          "title": "Problem-Evidenz"
+        },
+        {
+          "id": "A3",
+          "title": "Use-Case-Entscheidung"
+        },
+        {
+          "id": "A4",
+          "title": "Offline-/Pilot-Evaluation"
+        },
+        {
+          "id": "A5",
+          "title": "Gate-Entscheidung"
+        },
+        {
+          "id": "A6",
+          "title": "Wertentscheidung"
+        },
+        {
+          "id": "A7",
+          "title": "Operating Model"
+        }
+      ],
+      "connections": [
+        {
+          "from": "P0",
+          "to": "A0",
+          "artifact": "Managementbriefing und Transformationscharter"
+        },
+        {
+          "from": "P1",
+          "to": "A1",
+          "artifact": "Geschäftsproblem-Canvas und Prozess-/Baseline-Plan"
+        },
+        {
+          "from": "P2",
+          "to": "A2",
+          "artifact": "Primäre Discovery-Evidenz und Segmententscheidung"
+        },
+        {
+          "from": "P3",
+          "to": "A3",
+          "artifact": "Begründetes Angebot und begrenztes Use-Case-Portfolio"
+        },
+        {
+          "from": "P4",
+          "to": "A4",
+          "artifact": "Reversibler Evaluations- und Pilotplan"
+        },
+        {
+          "from": "P5",
+          "to": "A5",
+          "artifact": "Gate-/Nachweisregister und Befähigungsplan"
+        },
+        {
+          "from": "P6",
+          "to": "A6",
+          "artifact": "Baselinevergleich und Go/Adapt/Hold/Stop-Entscheidung"
+        },
+        {
+          "from": "P7",
+          "to": "A7",
+          "artifact": "Verantwortetes Operating Model oder sauberer Stop"
+        }
+      ]
+    },
+    "phases": [
+      {
+        "id": "P0",
+        "title": "Orientation and AI Literacy",
+        "goal": "KI-Chancen und Grenzen in Geschäftssprache erklären und einen begrenzten Transformationsauftrag formulieren.",
+        "skills": [
+          "Toolfreies Zielbild formulieren",
+          "Wert, Unsicherheit, Datenabhängigkeit und menschliche Verantwortung erklären",
+          "Fachprüfungen und Stop-Bedingungen erkennen"
+        ],
+        "practice": "Ein 20-minütiges Managementbriefing halten und einen einseitigen Charter mit Ziel, Geschäftsfrage, Nutzern, Prozessgrenze, Nicht-Zielen, Ownern, Informationsklassen, Gates und nächster Entscheidung erstellen.",
+        "observable_outcome": "Eigenes Managementbriefing plus verteidigter Transformationscharter mit getrennten Fakten, Annahmen, offenen Fragen und Gates.",
+        "exit_criterion": "Briefing ohne unbelegte Fähigkeits- oder Wertbehauptungen; Gate-0-Selbsttest korrigiert; Charter vollständig; Demo und Wertnachweis klar unterschieden.",
+        "dependency": "Keine fachliche Vorphase; Einstieg in die persönliche Roadmap.",
+        "gate": "Gate 0: Briefing, Selbsttest und Charter werden beobachtbar geprüft; Inhalte allein genügen nicht.",
+        "evidence_status": "Lernpaket vorhanden · persönlicher Nachweis offen",
+        "evidence_detail": "Lern- und Prüfungsmaterial existiert. Briefing und Charter wurden durch den Lernenden noch nicht als Kompetenznachweis dokumentiert.",
+        "phase": "Capability P0",
+        "status": "Lernpaket vorhanden · Kompetenznachweis offen",
+        "content_type": "capability_phase",
+        "gate_tags": [
+          "Gate 0",
+          "Ownership",
+          "Recht/Compliance"
+        ],
+        "skill_name": "ai-phase-0-orientation-literacy"
+      },
+      {
+        "id": "P1",
+        "title": "Business and Process Understanding",
+        "goal": "KI-Interesse in ein konkretes, wiederholbares und messbares Geschäftsproblem mit Owner und testbarer Werthypothese übersetzen.",
+        "skills": [
+          "Prozess, Rollen, Übergaben, Ausnahmen und Reibung abbilden",
+          "Symptome, Ursachen, Ideen und Evidenz trennen",
+          "Baseline und nichttechnische Alternativen definieren"
+        ],
+        "practice": "Einen realen oder anonymisierten Prozess analysieren und Geschäftsproblem-Canvas, Prozess-/Reibungskarte, Owner-Map, Evidenzregister und Baseline-Plan selbst erstellen und verteidigen.",
+        "observable_outcome": "Eigener Geschäftsproblem-Canvas mit nachvollziehbarer Prozesssicht, Evidenzlabels, Baseline-Plan und Go/Adapt/Hold/Stop-Entscheidung.",
+        "exit_criterion": "Prozess Ende-zu-Ende erklärbar; Aussagen evidenzklassifiziert; Qualitäts-, Risiko-, Kontroll-, Mitarbeiter- und Betriebswirkung berücksichtigt; Nicht-KI-Option bleibt vergleichbar.",
+        "dependency": "P0-Charter und Grenzen verstanden und verteidigt.",
+        "gate": "Gate 1: Managementbriefing/Charter und Geschäftsproblem-Canvas werden verteidigt; Prüfung und Entscheidung werden dokumentiert.",
+        "evidence_status": "Musterartefakte vorhanden · persönliche Anwendung offen",
+        "evidence_detail": "Ein detaillierter Muster-Canvas beweist Methodendesign, nicht persönliche Beherrschung, reale Baseline oder Kundennachfrage.",
+        "phase": "Capability P1",
+        "status": "Musterartefakte vorhanden · Kompetenznachweis offen",
+        "content_type": "capability_phase",
+        "gate_tags": [
+          "Gate 1",
+          "Geschäftsproblem/Wert",
+          "Ownership"
+        ],
+        "skill_name": "ai-phase-1-business-process"
+      },
+      {
+        "id": "P2",
+        "title": "Target Segment and Discovery",
+        "goal": "Ein konditionales Zielsegment wählen und Problemwiederholung, Rollen, Zugang, Datenreife und Kaufkontext mit Primärevidenz testen.",
+        "skills": [
+          "Segmenthypothesen ohne erfundene Nachfrage bilden",
+          "Problemgespräche ohne Lösungsverkauf führen",
+          "Sponsor, Owner, Nutzer, Gate-Owner und Beschaffungsweg erkennen",
+          "bestätigende und widersprechende Evidenz synthetisieren"
+        ],
+        "practice": "Nach gesonderter Autorisierung einen Discovery-Zyklus planen, Problemgespräche protokollieren und eine evidenzgebundene Segmententscheidung treffen.",
+        "observable_outcome": "Nachvollziehbares Discovery-Register mit Problemwiederholung, Gegenindizien, Rollen, Zugang, Daten- und Kaufkontext.",
+        "exit_criterion": "Primärevidenz ist rückverfolgbar; Problem wiederholt sich; Sponsor und Prozess-Owner sind plausibel; generisches KI-Interesse löst Stop aus.",
+        "dependency": "P1-Geschäftsproblem und Baseline-Fragen sind belastbar formuliert.",
+        "gate": "Gate 2: Discovery ist separat autorisiert; unnötige personenbezogene oder kundenidentifizierende Daten werden nicht gespeichert.",
+        "evidence_status": "Interne Segmenthypothese vorhanden · Marktvalidierung offen",
+        "evidence_detail": "Zielmarkt- und Problemhypothesen existieren. Problemhäufigkeit, Entscheiderzugang, Budget, Kaufbereitschaft und Beschaffungsweg sind nicht belegt.",
+        "phase": "Capability P2",
+        "status": "Marktvalidierung offen",
+        "content_type": "capability_phase",
+        "gate_tags": [
+          "Gate 2",
+          "Datenschutz",
+          "Geschäftsproblem/Wert"
+        ],
+        "skill_name": "ai-phase-2-segment-discovery"
+      },
+      {
+        "id": "P3",
+        "title": "Offer and Use-Case Portfolio",
+        "goal": "Validierte Probleme in ein modulares Beratungsangebot übersetzen und einen begrenzten Use Case nach Wert, Reife, Risiko, Reversibilität und Lernnutzen wählen.",
+        "skills": [
+          "Angebot um Entscheidungen und Ergebnisse statt Technologie positionieren",
+          "Pakete, Voraussetzungen, Ausschlüsse und Übergaben definieren",
+          "Use Cases ohne Scheinpräzision vergleichen",
+          "Aufwands- und Preishypothesen von Marktevidenz trennen"
+        ],
+        "practice": "Für validierte Probleme ein Einstiegspaket und Folgeoptionen formulieren sowie bevorzugten und höchstens einen Reserve-Use-Case begründen.",
+        "observable_outcome": "Verständliche Paketkarte und evidenzgebundenes Use-Case-Portfolio mit Scope, Mitwirkung, Ausschlüssen, Gates und Änderungssteuerung.",
+        "exit_criterion": "Käufer versteht die ermöglichte Entscheidung; Scope und Gates sind explizit; Use-Case-Wahl zeigt Evidenz und Unsicherheit; Preislogik nutzt reale Liefer- und Zahlungsdaten.",
+        "dependency": "P2 liefert validierte Problem- und Käufer-/Owner-Evidenz.",
+        "gate": "Gate 3: Keine Marktpreis-, Nachfrage- oder Lieferfähigkeitsbehauptung ohne reale Evidenz.",
+        "evidence_status": "Angebotsarchitektur vorhanden · Markt- und Liefernachweis offen",
+        "evidence_detail": "Module und Pakete sind konzipiert. Zahlungsbereitschaft, reale Lieferaufwände und Marktakzeptanz sind unbewiesen.",
+        "phase": "Capability P3",
+        "status": "Konzept vorhanden · Liefernachweis offen",
+        "content_type": "capability_phase",
+        "gate_tags": [
+          "Gate 3",
+          "Geschäftsproblem/Wert",
+          "Ownership"
+        ],
+        "skill_name": "ai-phase-3-offer-portfolio"
+      },
+      {
+        "id": "P4",
+        "title": "Reversible Pilot Design",
+        "goal": "Eine begrenzte Evaluation entwerfen, die Prozesseffekt, Qualität, Risiko, Nutzerwirkung und Gesamtaufwand ohne Vorfestlegung auf Umsetzung oder Skalierung prüft.",
+        "skills": [
+          "Scope, verbotene Fälle, Rollen, Informationen, Review, Eskalation, Fallback und Rollback definieren",
+          "Offline-, Shadow- und separat freizugebende Feldstufen trennen",
+          "Referenzfälle, Qualitätsrubrik, Fehlerklassen und Stop-Regeln festlegen"
+        ],
+        "practice": "Für einen begrenzten Use Case einen reversiblen Evaluationsplan mit Lernfragen, Evidenzpfaden, Vergleichsdesign, Stop-Regeln, Kill-Switch und Rückfallweg erstellen.",
+        "observable_outcome": "Entscheidungsreifer Pilot-Canvas, der nur den nächsten Schritt freigibt und technische Architekturentscheidungen bei der zuständigen Funktion belässt.",
+        "exit_criterion": "Jede Lernfrage hat Evidenzpfad und Regel; Baseline und Vergleichsdesign kommen vor der Zielsetzung; kritische Qualitäts-, Rechte-, Datenfluss-, Beobachtbarkeits- und Rückfallfehler sind nicht wegwägbar.",
+        "dependency": "P3 liefert begründeten, begrenzten Use Case und explizite Ausschlüsse.",
+        "gate": "Gate 4: Nur reversible Synthesedaten-/Offline-Evaluation ist technisch gestützt; Realpilot und Architektur brauchen separate Freigaben.",
+        "evidence_status": "Muster-Pilot und enge technische Evidenz vorhanden · Realpilot offen",
+        "evidence_detail": "Pilot-Canvas und bedingte Machbarkeitsbewertung existieren; unterstützt ist nur eine enge lokale Offline-/Shadow-Evaluation mit Synthesedaten.",
+        "phase": "Capability P4",
+        "status": "Enger Demonstrator vorhanden · Realpilot offen",
+        "content_type": "capability_phase",
+        "gate_tags": [
+          "Gate 4",
+          "Daten/Scope",
+          "Betrieb/Technik"
+        ],
+        "skill_name": "ai-phase-4-pilot-design"
+      },
+      {
+        "id": "P5",
+        "title": "Governance, Change, and Enablement",
+        "goal": "Entscheidungsfähige Governance schaffen und betroffene Rollen zum sicheren Nutzen, Prüfen, Eskalieren und Stoppen befähigen.",
+        "skills": [
+          "Unabhängige Wert-, Rechts-, Datenschutz-, InfoSec-, Arbeits-, Technik- und Betriebsgates steuern",
+          "Beratungskoordination von Fachfreigabe trennen",
+          "Owner, Evidenz, Auflagen, Gültigkeit und Re-Gate definieren",
+          "rollenspezifische Befähigung ohne Überwachung entwerfen"
+        ],
+        "practice": "Gate-/Nachweisregister, RACI, Risiko-/Entscheidungslog, Nutzungsregeln, Change-Impact-Map, Kompetenzmatrix sowie Vorfall- und Eskalationsweg für den Pilot erstellen.",
+        "observable_outcome": "Vollständiges Governance- und Befähigungspaket mit klaren Mandaten, blockierenden offenen Gates und nachweisbaren Nutzerkompetenzen.",
+        "exit_criterion": "Jedes Gate hat verantwortliche Funktion und Status; offene/abgelaufene/entzogene Gates blockieren; Nutzer zeigen Quellenprüfung, Grenzerkennung, Eskalation und Fallback; keine verdeckte Leistungsüberwachung.",
+        "dependency": "P4 definiert Pilotumfang, Rollen, Risiken, Datenflüsse und Stop-Regeln.",
+        "gate": "Gate 5: Fachfunktionen entscheiden in ihrem Mandat; Checklisten oder Beratungstexte sind keine Rechts-, Security- oder Betriebsfreigabe.",
+        "evidence_status": "Governance-Methodik vorhanden · reale Gate- und Change-Evidenz offen",
+        "evidence_detail": "Register, Rollen- und Methodenstrukturen existieren. Reale Fachentscheidungen, Nutzerbefähigung und Change-Wirkung sind nicht nachgewiesen.",
+        "phase": "Capability P5",
+        "status": "Methodik vorhanden · reale Gate-Evidenz offen",
+        "content_type": "capability_phase",
+        "gate_tags": [
+          "Gate 5",
+          "Recht/Compliance",
+          "Datenschutz",
+          "Informationssicherheit",
+          "Arbeitsrecht/Mitbestimmung"
+        ],
+        "skill_name": "ai-phase-5-governance-change"
+      },
+      {
+        "id": "P6",
+        "title": "Value Proof and Decision",
+        "goal": "Bestimmen, ob ein Pilot zurechenbaren Netto-Wert bei erforderlicher Qualität, vertretbarem Risiko, Mitarbeiterwirkung, Kontroll- und Betriebsaufwand erzeugt.",
+        "skills": [
+          "Baseline und Intervention unter Störfaktoren vergleichen",
+          "Geschäft, Prozess, Qualität, Nutzer, Risiko und Betrieb messen",
+          "Bruttonutzen von Review-, Pflege-, Support-, Governance- und Betriebskosten trennen",
+          "negative oder uneindeutige Ergebnisse ehrlich berichten"
+        ],
+        "practice": "Einen vorab definierten Baselinevergleich mit KPI-Definitionen, Qualitäts-/Risikogrenzen, Unsicherheiten und Go/Adapt/Hold/Stop-Entscheidung durchführen.",
+        "observable_outcome": "Nachvollziehbarer Wertnachweis oder ehrlicher Nicht-/Unklar-Nachweis mit proportionaler Kausalaussage und expliziter Entscheidung.",
+        "exit_criterion": "KPIs definieren Population, Zähler/Nenner, Ausschlüsse, Quelle, Owner, Unsicherheit und Entscheidungsbezug; Grenzen vorab gesetzt; Kausalaussage passt zum Design.",
+        "dependency": "P5-Gates erlauben die Evaluation; P4-Vergleichsdesign und reale Baseline liegen vor.",
+        "gate": "Gate 6: Kein Wert-GO ohne reale Baseline, zulässige Messung und zurechenbare Netto-Wert-Evidenz.",
+        "evidence_status": "Wertmessmethode vorhanden · reale Baseline und Wertnachweis offen",
+        "evidence_detail": "Es existieren keine reale Kundenbaseline, Feldpilot-, Zahlungsbereitschafts- oder zurechenbaren Wertnachweise.",
+        "phase": "Capability P6",
+        "status": "Reale Baseline und Wertnachweis offen",
+        "content_type": "capability_phase",
+        "gate_tags": [
+          "Gate 6",
+          "Geschäftsproblem/Wert",
+          "Daten/Scope"
+        ],
+        "skill_name": "ai-phase-6-value-proof"
+      },
+      {
+        "id": "P7",
+        "title": "Scale, Operate, and Repeat",
+        "goal": "Einen bewiesenen, begrenzten Use Case in ein verantwortetes Operating Model und wiederholbares Beratungsmodell überführen oder sauber stoppen.",
+        "skills": [
+          "Pilot-Evidenz von Skalierungsannahmen trennen",
+          "Stabilisieren, erweitern, neu pilotieren, pausieren und stilllegen vergleichen",
+          "Business-, Prozess-, Informations-, System-, Risiko-, Support- und Lifecycle-Ownership definieren",
+          "Monitoring, Change, Vorfälle, Revalidierung, Wertreview und Stilllegung planen"
+        ],
+        "practice": "Auf Basis realer P6-Evidenz eine Investitions-/Risikovorlage und ein schrittweises, reversibles Operating Model inklusive Retirement erstellen.",
+        "observable_outcome": "Dokumentierte Scale/Adapt/Hold/Stop-Entscheidung mit Ownern, Ressourcen, Servicelevels, Lifecycle-Kontrollen, Re-Gates, Rollback und Stilllegung.",
+        "exit_criterion": "Managemententscheidung dokumentiert; Owner und Betriebsfolgen sichtbar; Expansion bleibt schrittweise reversibel; Wiederholbarkeitsbehauptung beruht auf mehreren Lieferzyklen.",
+        "dependency": "P6 liefert belastbaren Netto-Wert- und Qualitätsnachweis; alle relevanten Gates tragen den nächsten Scope.",
+        "gate": "Gate 7: Jede Scope-Erweiterung ist eine neue Evidenz- und Gate-Frage; ein Demonstrator oder einzelner Lieferzyklus begründet keine Skalierungsfähigkeit.",
+        "evidence_status": "Skalierungsfähigkeit und Betriebsnachweis offen",
+        "evidence_detail": "Keine Produktions-, Real-Daten-, Operating-Model-, Skalierungs- oder wiederholbare Umsatz-/Liefer-Evidenz ist etabliert.",
+        "phase": "Capability P7",
+        "status": "Skalierungsfähigkeit offen",
+        "content_type": "capability_phase",
+        "gate_tags": [
+          "Gate 7",
+          "Betrieb/Technik",
+          "Ownership",
+          "Recht/Compliance"
+        ],
+        "skill_name": "ai-phase-7-scale-operate"
+      }
+    ],
+    "skill_register": [
+      {
+        "name": "ai-capability-roadmap",
+        "purpose": "Steuert das Gesamtbild, die Abhängigkeiten und die Verbindung von persönlichem Capability Track und Enterprise/Application Track.",
+        "extension_rule": "Nach substanzieller Übung, Discovery, Pilotprüfung oder Managemententscheidung neue Evidenz vermerken, betroffene Phase aktualisieren und phasenübergreifende Folgen zurückspiegeln."
+      },
+      {
+        "name": "ai-phase-0-orientation-literacy",
+        "purpose": "Baut geschäftsnahe KI-Orientierung, Grenzenverständnis und einen begrenzten Transformationscharter auf.",
+        "extension_rule": "Wiederkehrende Missverständnisse, bessere Managementerklärungen, erprobte Briefingmuster und gescheiterte Erklärungen als Lernregeln ergänzen."
+      },
+      {
+        "name": "ai-phase-1-business-process",
+        "purpose": "Baut Geschäftsproblem-, Prozess-, Owner-, Evidenz- und Baseline-Kompetenz auf.",
+        "extension_rule": "Validierte Interviewfragen, Prozessmuster, Baseline-Definitionen, Fehlerbilder und widerlegende Evidenz ergänzen."
+      },
+      {
+        "name": "ai-phase-2-segment-discovery",
+        "purpose": "Baut Segmentwahl und Primär-Discovery ohne erfundene Nachfrage auf.",
+        "extension_rule": "Interviewevidenz, Einwände, Segmentsplits, Käufersprache, Beschaffungsmuster und Gegenbefunde datensparsam ergänzen."
+      },
+      {
+        "name": "ai-phase-3-offer-portfolio",
+        "purpose": "Baut ergebnisorientierte Angebots-, Paket- und Use-Case-Portfolio-Kompetenz auf.",
+        "extension_rule": "Beobachtete Kaufeinwände, Lieferaufwand, Paketakzeptanz, Scope-Änderungen und Preisevidenz ergänzen; Grenzen bei Gegenbelegen ändern."
+      },
+      {
+        "name": "ai-phase-4-pilot-design",
+        "purpose": "Baut reversible, evidenzorientierte Pilot- und Evaluationsgestaltung auf.",
+        "extension_rule": "Reale Fehlerbilder, Evaluationsdesigns, Review-Rubriken, Stop-Schwellen und Rollback-Lektionen nach autorisierten Übungen ergänzen."
+      },
+      {
+        "name": "ai-phase-5-governance-change",
+        "purpose": "Baut unabhängige Gate-Steuerung, Change-Gestaltung und rollenspezifische Befähigung auf.",
+        "extension_rule": "Gate-Fragen, Fachfeedback, Change-Barrieren, Kompetenzchecks, Vorfalllektionen und Re-Gate-Trigger ergänzen; nie generische Freigaben behaupten."
+      },
+      {
+        "name": "ai-phase-6-value-proof",
+        "purpose": "Baut belastbare Baseline-, KPI-, Netto-Wert- und Entscheidungsfähigkeit auf.",
+        "extension_rule": "Validierte KPI-Definitionen, nur vergleichbare Quellenbenchmarks, reale Kontroll-/Betriebskosten, Kausalgrenzen und Entscheidungen ergänzen."
+      },
+      {
+        "name": "ai-phase-7-scale-operate",
+        "purpose": "Baut Operating-Model-, Lifecycle-, Skalierungs-, Wiederholbarkeits- und Stilllegungskompetenz auf.",
+        "extension_rule": "Betriebsvorfälle, Lifecycle-Metriken, Ownership-Muster, Lieferökonomie, Wiederverwendung und Retirement-Lektionen ergänzen; jede Expansion neu gaten."
+      }
+    ]
+  },
   "project_downloads": [
     {
       "filename": "KI_TRANSFORMATION_CONTENT.md",
@@ -1335,6 +1731,14 @@
     "phase": [
       "Abnahme",
       "Artefaktmanagement",
+      "Capability P0",
+      "Capability P1",
+      "Capability P2",
+      "Capability P3",
+      "Capability P4",
+      "Capability P5",
+      "Capability P6",
+      "Capability P7",
       "Discovery",
       "Gesamtprogramm",
       "Governance",
@@ -1349,12 +1753,20 @@
     "status": [
       "Autoritative Basis eindeutig",
       "E und P1 intern standardisierbar; P2/P3 Erweiterungsstruktur",
+      "Enger Demonstrator vorhanden · Realpilot offen",
       "Finales enges GO",
       "GO – streng begrenzt",
       "Intern konzipiert; reale Baseline offen",
       "Konditionale interne Präferenz; Validierung offen",
+      "Konzept vorhanden · Liefernachweis offen",
+      "Lernpaket vorhanden · Kompetenznachweis offen",
+      "Marktvalidierung offen",
+      "Methodik vorhanden · reale Gate-Evidenz offen",
       "Methodischer Demonstrator; kein Realpilot-GO",
+      "Musterartefakte vorhanden · Kompetenznachweis offen",
       "P0-Evaluation freigegeben; spätere Phasen HOLD",
+      "Reale Baseline und Wertnachweis offen",
+      "Skalierungsfähigkeit offen",
       "Technisch grün im engen Demo-Scope",
       "Teilweise entschieden",
       "Verbindlich",
@@ -1365,6 +1777,7 @@
       "acceptance_history",
       "artifact_registry",
       "business_problem",
+      "capability_phase",
       "decision_guardrails",
       "decision_log",
       "functional_specification",
@@ -1383,6 +1796,14 @@
       "Betrieb/Technik",
       "Daten/Scope",
       "Datenschutz",
+      "Gate 0",
+      "Gate 1",
+      "Gate 2",
+      "Gate 3",
+      "Gate 4",
+      "Gate 5",
+      "Gate 6",
+      "Gate 7",
       "Geschäftsproblem/Wert",
       "IAM/Berechtigung",
       "Informationssicherheit",
