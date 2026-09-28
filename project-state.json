@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "project": "KI-Transformationsportal – lokale Projektübersicht",
+  "path": "/home/hermes/.hermes/profiles/ki-transformationsberater/projects/ki-transformationsportal",
+  "task_ids": {
+    "current": "t_7f7236a7",
+    "parent": "t_86af2dbe",
+    "content": "t_b99c5e59",
+    "content_verification": "t_31e8fffc",
+    "independent_review": "t_d25125e4"
+  },
+  "status": "IMPLEMENTATION_COMPLETE_PENDING_INDEPENDENT_REVIEW",
+  "decision_scope": {
+    "go": [
+      "namentlich begrenzter, begleiteter interner Evaluationskreis",
+      "127.0.0.1",
+      "In-Memory",
+      "ausschließlich D0/D1-Synthesedaten",
+      "unverändertes autoritatives Wissensportal-Bundle"
+    ],
+    "not_approved": [
+      "reale Daten/D2/D3",
+      "erweiterter Nutzerkreis",
+      "Produktivbetrieb/Hosting",
+      "produktives IAM/SSO oder Persistenz",
+      "externe Integrationen",
+      "externe oder öffentliche Publikation"
+    ]
+  },
+  "current_state": [
+    "13 Inhaltsbereiche und 14 Navigationseinträge lokal abgebildet",
+    "Volltextsuche und Filter nach Phase, Status, Inhaltstyp und Gate implementiert",
+    "Evidenzklassen visuell und semantisch getrennt",
+    "lokale Downloads whitelisted, vorhanden und beim Daten-Build gehasht",
+    "Loopback-only Standardbibliothek-Server mit kontrolliertem Start/Stop"
+  ],
+  "open_points": [
+    "namentliche Owner-Besetzung",
+    "Markt-, Kauf-, Wirkungs- und Baseline-Evidenz",
+    "reale B9/B10-, Screenreader-, Geräte- und formale Accessibility-Prüfung",
+    "Recht/Compliance, Datenschutz, InfoSec, Arbeitsrecht/Mitbestimmung, Rechte/Lizenz, Betrieb, IAM und Publikationsgates",
+    "NACHWEIS-A5-ROLLEN.md:26 vor Neupaketierung, Übergabe oder Scope-Erweiterung korrigieren und erneut prüfen"
+  ],
+  "run": {
+    "command": "cd /home/hermes/.hermes/profiles/ki-transformationsberater/projects/ki-transformationsportal && ./start.sh",
+    "url": "http://127.0.0.1:8765",
+    "stop_command": "cd /home/hermes/.hermes/profiles/ki-transformationsberater/projects/ki-transformationsportal && ./stop.sh",
+    "verify_command": "cd /home/hermes/.hermes/profiles/ki-transformationsberater/projects/ki-transformationsportal && ./verify.sh"
+  },
+  "source_hashes": {
+    "KI_TRANSFORMATION_CONTENT.md": "77b9af9736110bddc253ddf48eca0490c170decf732d779b31afc689844b5dad",
+    "project-content.json": "c965ffd3731061a6354c7baa636655dae80aa0cd1dacd53542c8e3f07b7d448a",
+    "PARENT_PROJECT_STATE.md": "4181643316a48daa7bc9c4f52d97cc5a426f70c57a0cff31e1526a2d62d73d37",
+    "CONTENT_VERIFICATION.md": "83302d9bcacaecd3ee84dd7e7b92d56005a0944280b3e083d266f5f22fdef846",
+    "authoritative_wissensportal_bundle": "cfffbe7623a88afaf1c266cd6af66500e9eeed9c56cf5d0566874f0e0d1bce52"
+  },
+  "next_step": "Unabhängige rein lesende Schlussprüfung über t_d25125e4; danach Evaluationskreis, Zweck, Zeitraum und Portal/Product Owner namentlich festhalten und nur das unveränderte autoritative Bundle im engen lokalen D0/D1-Synthesedaten-Scope begleitet evaluieren."
+}

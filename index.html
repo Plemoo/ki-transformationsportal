@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>KI-Transformation · Projektübersicht</title>
+  <meta name="description" content="Lokale, quellengebundene Übersicht des KI-Transformationsvorhabens.">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#content">Zum Inhalt springen</a>
+  <header class="topbar">
+    <a class="brand" href="?view=executive-overview" aria-label="Zur Projektübersicht">
+      <span class="brand-mark" aria-hidden="true">KT</span>
+      <span><strong>KI-Transformation</strong><small>Interne Projektübersicht</small></span>
+    </a>
+    <div class="topbar-status" aria-label="Aktuelle Reifegradentscheidung">
+      <span class="pulse" aria-hidden="true"></span>
+      <span><strong>Enges GO</strong><small>nur lokale D0/D1-Evaluation</small></span>
+    </div>
+  </header>
+
+  <div class="shell">
+    <aside class="sidebar" aria-label="Projektnavigation">
+      <div class="sidebar-inner">
+        <p class="eyebrow">Projektbereiche</p>
+        <nav id="primary-nav" aria-label="Alle Inhalte">
+          <p class="loading">Navigation wird geladen …</p>
+        </nav>
+        <div class="sidebar-meta">
+          <span>13 Inhaltsbereiche</span>
+          <span>19 Quelltasks</span>
+          <span>Stand: verifizierter Parent-Korpus</span>
+        </div>
+      </div>
+    </aside>
+
+    <main id="content" tabindex="-1">
+      <section class="scope-banner" aria-labelledby="scope-title">
+        <div class="scope-go">
+          <p class="eyebrow">Aktuelle Entscheidung</p>
+          <h1 id="scope-title">GO – streng begrenzt</h1>
+          <p>Nur für einen namentlich begrenzten, begleiteten internen Evaluationskreis auf <strong>127.0.0.1</strong>, <strong>In-Memory</strong> und ausschließlich mit <strong>D0/D1-Synthesedaten</strong>.</p>
+        </div>
+        <div class="scope-no-go">
+          <p class="eyebrow">No-Go · keine Freigabe</p>
+          <p><strong>reale Daten/D2/D3</strong> · erweiterter Nutzerkreis · <strong>Produktivbetrieb/Hosting</strong> · produktives IAM oder Persistenz · externe Integrationen · externe oder öffentliche Publikation</p>
+        </div>
+      </section>
+
+      <section class="controls" aria-labelledby="search-title">
+        <div class="search-field">
+          <label id="search-title" for="search">Volltextsuche</label>
+          <input id="search" type="search" autocomplete="off" placeholder="Begriff, Task-ID, Entscheidung oder Risiko …">
+        </div>
+        <div class="filter-grid" aria-label="Inhalte filtern">
+          <label>Phase<select id="filter-phase"><option value="">Alle Phasen</option></select></label>
+          <label>Status<select id="filter-status"><option value="">Alle Status</option></select></label>
+          <label>Inhaltstyp<select id="filter-type"><option value="">Alle Typen</option></select></label>
+          <label>Gate<select id="filter-gate"><option value="">Alle Gates</option></select></label>
+          <button id="clear-filters" type="button">Filter zurücksetzen</button>
+        </div>
+        <p id="result-status" class="result-status" role="status" aria-live="polite"></p>
+      </section>
+
+      <div id="view" aria-live="polite">
+        <section class="loading-panel"><p>Daten werden lokal geladen …</p></section>
+      </div>
+    </main>
+  </div>
+
+  <footer>
+    <p>Interne Leseoberfläche · keine produktive Authentisierung · keine Außenfreigabe</p>
+    <p><a href="PROJECT_STATE.md">PROJECT_STATE.md</a> · <a href="project-state.json">project-state.json</a> · <a href="README.md">README</a></p>
+  </footer>
+
+  <noscript><p class="noscript">Diese lokale Übersicht benötigt JavaScript für Navigation, Suche und Filter. Die konsolidierten Inhalte stehen unter <a href="downloads/KI_TRANSFORMATION_CONTENT.md">KI_TRANSFORMATION_CONTENT.md</a> bereit.</p></noscript>
+</body>
+</html>
