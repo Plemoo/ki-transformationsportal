@@ -127,7 +127,7 @@ if (typeof document !== 'undefined') {
     state.data.navigation.forEach((item) => {
       const link = document.createElement('a');
       link.className = 'nav-link';
-      link.href = `?view=${encodeURIComponent(item.id)}`;
+      link.href = item.route ? safeLocalHref(item.route) : `?view=${encodeURIComponent(item.id)}`;
       if (item.id === state.currentView && !hasActiveFilters(state.filters)) link.setAttribute('aria-current', 'page');
       link.innerHTML = `<span class="nav-number">${String(item.order).padStart(2, '0')}</span><span>${escapeHtml(item.title)}</span>`;
       nav.append(link);
@@ -167,11 +167,24 @@ if (typeof document !== 'undefined') {
     </aside>`;
   }
 
+  function renderWhiteboardTeaser() {
+    const board = state.data.whiteboard;
+    const downloads = board.downloads.map((item) => {
+      const href = safeLocalHref(item.path);
+      return `<li><a href="${escapeHtml(href)}" download><strong>${escapeHtml(item.title)}</strong><small>${escapeHtml(item.kind)} · ${formatBytes(item.bytes)}</small><small class="mono">SHA-256 ${escapeHtml(item.sha256)}</small></a></li>`;
+    }).join('');
+    return `<aside class="whiteboard-teaser" aria-labelledby="whiteboard-teaser-title">
+      <div><p class="eyebrow">Interaktives Planungsboard</p><h3 id="whiteboard-teaser-title">${escapeHtml(board.title)}</h3><p>${escapeHtml(board.summary)}</p><a class="button-link" href="${escapeHtml(safeLocalHref(board.route))}">Whiteboard öffnen</a></div>
+      <div class="whiteboard-boundary"><strong>Freigabegrenze</strong><p>${escapeHtml(board.disclaimer)}</p></div>
+      <div class="whiteboard-downloads"><h4>Downloads und Lieferinformationen</h4><p>README und Prüfbericht dokumentieren Nutzung und technische Verifikation; sie sind keine Spezialisten- oder Fachfreigabe.</p><ul class="download-list">${downloads}</ul></div>
+    </aside>`;
+  }
+
   function renderSection(section) {
     const sourceTags = (section.task_ids || []).map((id) => `<span class="badge mono">${escapeHtml(id)}</span>`).join('');
     const gateTags = (section.gate_tags || []).map((gate) => `<span class="badge gate">${escapeHtml(gate)}</span>`).join('');
     const artifactExtra = section.id === 'artefaktregister' ? renderArtifactRegistry() + renderDownloads() : '';
-    const roadmapTeaser = section.id === 'executive-overview' ? renderRoadmapTeaser() : '';
+    const roadmapTeaser = section.id === 'executive-overview' ? renderWhiteboardTeaser() + renderRoadmapTeaser() : '';
     document.title = `${section.title} · KI-Transformation`;
     view.innerHTML = `
       <article aria-labelledby="page-title">
