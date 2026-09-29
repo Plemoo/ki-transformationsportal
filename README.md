@@ -24,6 +24,8 @@ Optional kann ein anderer lokaler Port als erstes Argument gewählt werden, zum 
 ## Enthaltene Ansichten
 
 - Management-Startseite mit engem GO, Reifegrad, Risiken und nächsten Schritten
+- Transformation Whiteboard als interaktive, repository-relative Ansicht unter `whiteboard/` mit P0–P7, T0–T7, Fit/Zoom/Reset, Phasendetails und Hilfe
+- Downloads des Whiteboards als SVG, PDF und vollständiges ZIP; README und technischer Prüfbericht sind Lieferinformationen und ausdrücklich keine Fachfreigabe
 - Fähigkeiten & Lernroadmap mit verbundenem persönlichen Capability Track P0–P7 und Enterprise/Application Track
 - Acht evidenzgebundene Phasenkarten, nächster Lernschritt und kontinuierlich erweiterbares Skills-Register
 - Roadmap/Fortschritt
@@ -41,6 +43,8 @@ Optional kann ein anderer lokaler Port als erstes Argument gewählt werden, zum 
 - Projekt-Handoff mit `PROJECT_STATE.md` und `project-state.json`
 
 Volltextsuche und Facettenfilter stehen für Phase, Status, Inhaltstyp und Gate bereit und schließen die acht Capability-Phasen ein. Fakten, Annahmen, Optionen, Risiken/Gates und Empfehlungen werden getrennt dargestellt. Vorhandene Strategie-/Methodenartefakte oder Lernmaterialien gelten ausdrücklich nicht automatisch als persönlicher Kompetenznachweis.
+
+Das Whiteboard ist eine interne Planungshilfe. Es impliziert keine rechtliche, Datenschutz-, Informationssicherheits-, arbeitsrechtliche, technische, Produktions- oder Skalierungsfreigabe. Fachprüfungen bleiben erforderlich; es werden keine Unternehmensfakten, Kundendaten oder quantitativen Wirkungsbehauptungen ergänzt.
 
 ## Scope-Grenze
 
@@ -71,6 +75,8 @@ Die Prüfsuite deckt Daten-Build, Gate-Facetten, Navigation, Suche/Filter, No-Go
 - `content/`: unveränderte Parent-Eingaben plus die separat auditierbare `capability-roadmap.json`; `PARENT_PROJECT_STATE.md` bewahrt den Parent-Handoff separat
 - `downloads/`: explizit lokal angebotene, vorhandene Quellen-/Nachweisdateien
 - `web/data/site-data.json`: deterministisch erzeugte Browser-Daten mit abgeleiteten Gate-Facetten und verifizierten Downloadmetadaten
+- `content/whiteboard.json`: wartbare Route, sichtbare Freigabegrenze sowie SHA-256- und Größenmetadaten der Whiteboard-Downloads
+- `whiteboard/`: unveränderte interaktive HTML-Lieferung und lokale Downloads (SVG, PDF, ZIP, README, technischer Prüfbericht)
 - `index.html`, `styles.css`, `app.js`: lokale Oberfläche ohne externe Ressourcen
 - `server.py`: Python-Standardbibliothek, fest auf `127.0.0.1`
 - `start.sh`, `stop.sh`: kontrollierter lokaler Lebenszyklus

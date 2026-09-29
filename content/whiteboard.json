@@ -1,0 +1,45 @@
+{
+  "id": "transformation-whiteboard",
+  "title": "Transformation Whiteboard",
+  "route": "whiteboard/",
+  "summary": "Interaktives AI Business Strategy & Transformation Whiteboard mit P0–P7, T0–T7, Querschnittsrails, Entscheidungsgates und Evidenzzonen.",
+  "disclaimer": "Internal planning aid; no legal, privacy, information-security, labour-law, technical, production, or scale approval is implied.",
+  "source_task": "t_5b279228",
+  "downloads": [
+    {
+      "title": "SVG-Master herunterladen",
+      "kind": "svg",
+      "path": "whiteboard/downloads/transformation-whiteboard.svg",
+      "sha256": "82c995e8f680b009aebd0f79d52def6ff317f831555d16532a0ccc85e8e4440e",
+      "bytes": 43166
+    },
+    {
+      "title": "PDF-Übersicht herunterladen",
+      "kind": "pdf",
+      "path": "whiteboard/downloads/transformation-whiteboard.pdf",
+      "sha256": "e72a4affc0de2b1b609f2f8f6efc38d7ba967d161f8ee49696dc9a580c83b020",
+      "bytes": 48942
+    },
+    {
+      "title": "Komplettpaket (ZIP) herunterladen",
+      "kind": "zip",
+      "path": "whiteboard/downloads/transformation-whiteboard-complete.zip",
+      "sha256": "6bae28ad4d30cc95bb5592b8ef57dbe9c456ed4dbd799647b8d62432a4673c54",
+      "bytes": 81233
+    },
+    {
+      "title": "Nutzungshinweise lesen",
+      "kind": "documentation",
+      "path": "whiteboard/downloads/README.txt",
+      "sha256": "395f70dadac04d096573116f82ac95ce65c00f3c71e287e8af00ef7bdde91a7d",
+      "bytes": 1816
+    },
+    {
+      "title": "Technischen Prüfbericht lesen (keine Fachfreigabe)",
+      "kind": "technical-verification",
+      "path": "whiteboard/downloads/VERIFICATION.txt",
+      "sha256": "24407b340f951bc686a3177b104313e7caa9746390c7422efc74128dc792e8df",
+      "bytes": 1958
+    }
+  ]
+}
